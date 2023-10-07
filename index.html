@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Modal</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <button data-modal-target="#modal">Open Modal</button>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">Example Modal</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        In an era of rapid technological advancement, the digital landscape
+        continually evolves. From the ubiquity of smartphones connecting us
+        around the clock to the efficiency of artificial intelligence, our lives
+        have been transformed. However, this transformation brings forth
+        profound questions about privacy, security, and ethical data usage.
+        Navigating this changing terrain demands a delicate balance between
+        innovation and responsibility. Moving forward, leveraging technology's
+        potential for societal benefit while addressing its challenges head-on
+        remains paramount.
+      </div>
+    </div>
+    <div id="overlay"></div>
+  </body>
+</html>
